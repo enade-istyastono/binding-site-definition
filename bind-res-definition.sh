@@ -1,6 +1,9 @@
 #!/bin/sh
 
-~/yasara-model/yasara -txt "./defbindres.mcr" "MacroTarget='$1'" "radius=$2"
+# Edit the variables below according to your settings
+yasara=~/yasara-model/yasara
+
+$yasara -txt "./defbindres.mcr" "MacroTarget='$1'" "radius=$2"
 
 grep Residue $1-defbindres.txt | awk '{print $2$4}' > tmp1
 grep ATOM $1-rec.pdb | grep CA | awk '{print $4$6}' > tmp2
