@@ -6,8 +6,8 @@ Macro files in combination with a shell script to employ YASARA-Model (or above)
 <p>We have developed macros files to replace the modules since we can access YASARA-Structure. In October 2023, YASARA Biosciences GmbH made YASARA-Model freely available for academic users, at least until January 2026 (https://www.yasara.org/modeldl.htm). YASARA-Model could make use of our in-house developed macro files. Thus, here they are; we make the macros and the shell scripts embedded with the macro files publicly available. </p>
 
 <p>The scripts start using the macro splitpdb.mcr to abstract the ligand from the protein binding pocket. Since some docking software, e.g., AutoDock Vina, require binding pocket definition to run the simulation, we provide the bind-res-definition.sh script that incorporates the defbindres.mcr to identify the center coordinate and the radius of the ligand in angstrom. The script also includes information about the list of residue numbers and names of the binding pockets, which can be used in a configuration file to run PyPLIF HIPPOS (https://pubs.acs.org/doi/10.1021/acs.jcim.0c00305).</p>
-<p></p>
-<p></p>
+<p> </p>
+<p>*******</p>
 <p>Example of usage (for example the yasara app is located in the ~/yasara-model directory):</p>
 <p>1. Create a new directory dpp4-alo in the home directory, and copy all the files from this repo to this new directory.</p>
 <p>2. Download the 3G0B.pdb from https://www.rcsb.org/structure/3g0b</p>
