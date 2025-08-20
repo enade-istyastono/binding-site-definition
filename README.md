@@ -21,5 +21,5 @@ Macro files in combination with a shell script to employ YASARA-Model (or above)
 <p> (iii) 3G0B-chA-defbindres.txt: Containing the residues in the binding pocket, defined by 5 angstroms from the outer sphere of the ligand.</p>
 <p> (iv)  3G0B-chA-bindres-num-name.lst: Containing information that can help to create configuration file for running PyPLIF HIPPOS.</p>
 
-
+<p> Update August 20, 2025: Adding a file bind-res-definition-for-capped-complex.sh to replace bind-res-definition.sh for complex prepared by adding N-terminal cap.
 
